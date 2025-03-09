@@ -41,9 +41,9 @@ export default function RootLayout({
               <Navbar />
             </div>
 
-            <div className="flex pt-4">
+            <div className="flex">
               <SideMenu />
-              <main className="w-full px-7 mt-4">{children}</main>
+              <main className="w-full px-7">{children}</main>
             </div>
           </div>
         </ThemeProvider>
